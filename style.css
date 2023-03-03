@@ -1,0 +1,99 @@
+body {
+    background: rgba(235, 235, 11, 0.863);
+    font-family: cursive;
+}
+
+#form {
+    width: 600px;
+    height: 400px;
+    margin: 20px auto 0 auto;
+    padding: 80px;
+    background: linear-gradient(rgba(11, 135, 177, 0.726) 40%, rgba(0, 0, 0, 0.651) 100%);
+    border-radius: 4px;
+    font-size: 16px;
+    box-shadow: 2px black;
+
+}
+
+#form h1 {
+    color: #000;
+    text-align: center;
+}
+
+#form button {
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    color: #faf2f2;
+    background-color: rgb(6, 53, 182);
+    border: none;
+    border-radius: 4px;
+}
+ 
+input {
+    display: flex;
+    flex-direction: column;
+}
+input{
+    border: 10px solid white;
+    border-radius: 4px;
+    display: block;
+    font-size: 12px;
+    padding: 10px;
+    width: 100%;
+}
+
+input:focus {
+    outline: 0;
+}
+
+input.success input {
+    border-color: rgb(1, 129, 12);
+}
+
+input.error input {
+    border-color: rgba(218, 33, 0, 0.897);
+}
+
+input.error {
+    color: rgb(4, 107, 56);
+    font-size: 9px;
+    height: 13px;
+}
+
+/* 
+.inpp::-webkit-input-placeholder { 
+    font-family: cursive;
+  } */ 
+
+  /* input-control {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-control input {
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    display: block;
+    font-size: 12px;
+    padding: 10px;
+    width: 100%;
+}
+
+.input-control input:focus {
+    outline: 0;
+}
+
+input-control.success input {
+    border-color: #09c372;
+}
+
+.input-control.error input {
+    border-color: #ff3860;
+}
+
+.input-control .error {
+    color: #ff3860;
+    font-size: 9px;
+    height: 13px;
+} */

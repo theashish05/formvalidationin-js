@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="js.js"></script>
+</head>
+
+<body>
+    <div>
+        <table id="form">
+            <form action="home.html" onsubmit="return validate()">
+                <tr>
+                    <td>
+                        <h1>Registration</h1>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="username">Username</label>
+                    </td>
+                <tr>
+                    <td>
+                        <input id="username" name="username " type="text" placeholder="name" >
+                        <div class="error"></div>
+                    </td>
+                </tr>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="email">Email</label>
+                    </td>
+                <tr>
+                    <td>
+                        <input id="email" name="email " type="email" placeholder="email"required>
+                        <div class="error"></div>
+                    </td>
+                </tr>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="password">Password</label>
+                    </td>
+                <tr>
+                    <td>
+                        <input id="password" name="password" type="password" placeholder="password" >
+                        <div class="error"></div>
+                    </td>
+                </tr>
+                </tr>
+                <!-- <tr>
+                    <td>
+                        <label for="password2">Password2</label>
+                    </td>
+                <tr>
+                    <td>
+                        <input id="password2" name="password2" type="password" placeholder="password" required>
+                        <div class="error"></div>
+                    </td>
+                </tr>
+                </tr> -->
+                <tr>
+                    <td>
+                        <button  value="submit">SIGN UP</button>
+                    </td>
+                </tr>
+            </form>
+        </table>
+</body>
+</html>
